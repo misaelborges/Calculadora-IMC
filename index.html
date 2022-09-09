@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>IMC</h1>
+    <main>
+        <div>
+            <p>Digite seu peso</p>
+            <input type="number" name="txtpeso" id="itxtpeso" placeholder="Peso em [KG] Ex: 75">
+            <p>Digite sua altura</p>
+            <input type="number" name="txtaltura" id="itxtaltura" placeholder="Altura em [CM] Ex: 1.70">
+
+            <input type="button" value="Calcular" id="botao" onclick="clicar()">
+        </div>
+        <div>
+            <P id="resposta">Seu imc: </P>
+            <span id="mais"></span>
+            <span id="complemento"></span>
+        </div>
+        <!--<div id="complemento">
+            <P>Sugerimos para seu peso, ingerir:  </P>
+            <span id="mais"></span>
+        </div>-->
+        <footer>
+            <p>Os valores aqui disponibilizados tem como objetivo apenas informar, é de sua inteira responsabilidade consultar um médico</p>
+        </footer>
+    </main>
+</body>
+</html>
